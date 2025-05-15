@@ -148,7 +148,7 @@ class DoubleLinkedList
         }
     }
 
-    void retraverse()
+    void revtraverse()
     {
         if (START == NULL)
         {
@@ -238,7 +238,7 @@ int main()
                 list.traverse();
                 break;
             case '4':
-                list.retraverse();
+                list.revtraverse();
                 break;
             case '5':
                 list.searchData();
@@ -248,7 +248,7 @@ int main()
             default:
                 cout << "Invalid option\n";
         }
-        cout << "\nParess Enter to Continue...";
+        cout << "\nPress Enter to Continue...";
         cin.ignore();
         cin.get();
         cout << endl;
