@@ -148,5 +148,8 @@ class DoubleLinkedList
         }
     }
 
-    
+    void retraverse()
+    {
+        
+    }
 };
